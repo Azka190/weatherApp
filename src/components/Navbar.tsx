@@ -1,7 +1,6 @@
 import React from 'react'
 import { IoLocationSharp } from 'react-icons/io5'
 import { MdMyLocation } from 'react-icons/md'
-import Searchbox from './Searchbox'
 
 type Props = {}
 
@@ -22,7 +21,6 @@ export default function Navbar({} :Props) {
             <IoLocationSharp className='text-black size-8' />
             <p className='text-slate-900/80 text-sm '>Pakistan</p>
             <div>
-            <Searchbox value={''} onChange={undefined} onSubmit={undefined} />
             </div>
             </div>
             </div>
